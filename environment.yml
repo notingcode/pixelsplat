@@ -8,6 +8,7 @@ channels:
 dependencies:
   - python=3.10
   - pytorch=2.1.2=*cuda11.8*
+  - torchvision=0.16.2=*cu118*
   - pip
   - pip:
     - -r requirements.txt
