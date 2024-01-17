@@ -21,7 +21,7 @@
         "**/datasets": true,
     },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.defaultFormatter": "ms-python.autopep8"
     },
     "debug.focusWindowOnBreak": false,
     "files.watcherExclude": {
