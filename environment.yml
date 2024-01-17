@@ -1,0 +1,13 @@
+name: pixelsplat
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pytorch=2.1.2=*cuda11.8*
+  - pip
+  - pip:
+    - -r requirements.txt
